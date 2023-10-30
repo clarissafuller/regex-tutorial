@@ -25,6 +25,8 @@ Regular expressions can be made of multiple components that will be explained be
 
 Anchors are special characters that specify the position within the input string where a match must occur. Two common anchors are the caret (^), which matches the beginning of a line or string, and the dollar sign ($), which matches the end of a line or string.
 
+ex: `match_start = re.search(r'^Hello', text)'
+
 ### Quantifiers
 
 Quantifiers determine how many times a preceding character or group of characters must be repeated to constitute a valid match. Common quantifiers include the asterisk (\*), which matches zero or more occurrences, and the plus sign (+), which matches one or more occurrences.
@@ -51,10 +53,12 @@ Flags are optional modifiers that can be added to the end of a regular expressio
 
 ### Character Escapes
 
-Character escapes are used to match specific characters that would otherwise be treated as special characters in regular expressions. For example, "." is used to match a literal period (.) and "\d" is used to match the digit "d" instead of the special character for a digit.
+Character escapes are used to match specific characters that would otherwise be treated as special characters in regular expressions. For example, "." is used to match a literal period (.), and "\d" is used to match the digit "d" instead of the special character for a digit.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Clarissa Fuller
+email: clarissafuller5@yahoo.com
 
-a change to possibly push up file name change and start working in the right editor
+
+
