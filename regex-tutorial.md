@@ -58,11 +58,13 @@ ex: `text = "Birds are not real" const pattern = /\s/g`
 
 The OR operator (|) allows you to specify alternative patterns. It matches any one of the patterns on either side of the operator. For example, "cat|dog" matches either "cat" or "dog."
 
-ex:`text = "The color of my clothes is always either green or black" const pattern = /green|black/g
+ex:`text = "The color of my clothes is always either green or black" const pattern = /green|black/g`
 
 ### Flags
 
 Flags are optional modifiers that can be added to the end of a regular expression to change its behavior. Common flags include "i" for case-insensitive matching and "g" for global matching (to find all matches in the input string).
+
+ex: text = "Stuff to type \nstuff to style \nstuff to type" const pattern = /^Line/gm
 
 ### Character Escapes
 
