@@ -64,11 +64,15 @@ ex:`text = "The color of my clothes is always either green or black" const patte
 
 Flags are optional modifiers that can be added to the end of a regular expression to change its behavior. Common flags include "i" for case-insensitive matching and "g" for global matching (to find all matches in the input string).
 
-ex: text = "Stuff to type \nstuff to style \nstuff to type" const pattern = /^Line/gm
+ex: `text = "Stuff to type \nstuff to style \nstuff to type" const pattern = /^Line/gm`
 
 ### Character Escapes
 
 Character escapes are used to match specific characters that would otherwise be treated as special characters in regular expressions. For example, "." is used to match a literal period (.), and "\d" is used to match the digit "d" instead of the special character for a digit.
+
+ex: `text = "My ssn is 5" 
+const digitToMatch = 5
+const pattern = new RegExp(`My ssn is ${digitToMatch}\\.`)`
 
 ## Author
 
