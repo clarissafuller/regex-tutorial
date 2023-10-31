@@ -52,6 +52,8 @@ const pattern = /\b[AEIOUaeiou]+\b/g`
 
 Character classes are predefined sets of characters that match specific categories, such as digits (\d) for numbers, word characters (\w) for alphanumeric characters, or whitespace (\s) for spaces and tabs.
 
+ex: `text = "Birds are not real" const pattern = /\s/g`
+
 ### The OR Operator
 
 The OR operator (|) allows you to specify alternative patterns. It matches any one of the patterns on either side of the operator. For example, "cat|dog" matches either "cat" or "dog."
