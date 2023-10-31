@@ -25,11 +25,13 @@ Regular expressions can be made of multiple components that will be explained be
 
 Anchors are special characters that specify the position within the input string where a match must occur. Two common anchors are the caret (^), which matches the beginning of a line or string, and the dollar sign ($), which matches the end of a line or string.
 
-ex: `match_start = re.search(r'^Hello', text)'
+ex: `match_start = re.search(r'^Hello', text)`
 
 ### Quantifiers
 
 Quantifiers determine how many times a preceding character or group of characters must be repeated to constitute a valid match. Common quantifiers include the asterisk (\*), which matches zero or more occurrences, and the plus sign (+), which matches one or more occurrences.
+
+ex: `text = "ab abbb abbbbb" \n pattern=r"ab*"`
 
 ### Grouping Constructs
 
