@@ -37,6 +37,8 @@ ex: `text = "ab abbb abbbbb" \n pattern=r"ab*"`
 
 Grouping constructs are used to group characters or subpatterns together, allowing you to apply quantifiers or other operations to the entire group. Parentheses () are commonly used for grouping in regular expressions.
 
+ex: `text = "Debby Ryan (disneyqueen2000@disney.com) and Salena Gomez (salena@wizards.com) cant sing /n pattern = /\((.*?)\)/g"`
+
 ### Bracket Expressions
 
 Bracket expressions, also known as character classes, allow you to specify a set of characters that should match at a particular position. For example, [a-zA-z] matches any uppercase or lowercase letter.
