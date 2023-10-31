@@ -31,17 +31,22 @@ ex: `match_start = re.search(r'^Hello', text)`
 
 Quantifiers determine how many times a preceding character or group of characters must be repeated to constitute a valid match. Common quantifiers include the asterisk (\*), which matches zero or more occurrences, and the plus sign (+), which matches one or more occurrences.
 
-ex: `text = "ab abbb abbbbb" \n pattern=r"ab*"`
+ex: `text = "ab abbb abbbbb" 
+pattern=r"ab*"`
 
 ### Grouping Constructs
 
 Grouping constructs are used to group characters or subpatterns together, allowing you to apply quantifiers or other operations to the entire group. Parentheses () are commonly used for grouping in regular expressions.
 
-ex: `text = "Debby Ryan (disneyqueen2000@disney.com) and Salena Gomez (salena@wizards.com) cant sing /n pattern = /\((.*?)\)/g"`
+ex: `text = "Debby Ryan (disneyqueen2000@disney.com) and Salena Gomez (salena@wizards.com) cant sing 
+pattern = /\((.*?)\)/g"`
 
 ### Bracket Expressions
 
 Bracket expressions, also known as character classes, allow you to specify a set of characters that should match at a particular position. For example, [a-zA-z] matches any uppercase or lowercase letter.
+
+ex: `text = "If we were a movie you'd be the right guy and I'd be the best friend that you fall in love with" 
+const pattern = /\b[AEIOUaeiou]+\b/g`
 
 ### Character Classes
 
